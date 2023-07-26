@@ -24,6 +24,10 @@
   grid-template-columns: 50px 1fr;
 }
 
+.profile{
+  height: 40px;
+}
+
 .profile .profile-card{
   display: inline-block;
   position: relative;

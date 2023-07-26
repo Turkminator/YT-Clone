@@ -3,7 +3,7 @@
   font-family: Roboto, Arial;
 }
 
-.thumbnail {
+.thumbnail{
   width: 100%;
 }
 
@@ -15,14 +15,69 @@
   margin-bottom: 10px;
 }
 
-.video-info-grid {
+.video-link{
+  text-decoration: none;
+}
+
+.video-info-grid{
   display: grid;
   grid-template-columns: 50px 1fr;
 }
 
-.profile-picture {
+.profile .profile-card{
+  display: inline-block;
+  position: relative;
+}
+
+.profile-picture{
   width: 36px;
   border-radius: 50px;
+}
+
+.profile:hover .profile-card{
+  opacity: 1;
+}
+
+
+.profile .profile-card{
+  display: flex;
+  position:absolute;
+  border-style: none;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 90px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 500;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.card-picture{
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 15px;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 70px;
+  margin-left: 15px;
+  justify-content: center;
+}
+
+.card-owner{
+  font-weight: bold;
+}
+
+.card-stats{
+  color: gray;
 }
 
 .thumbnail-row {

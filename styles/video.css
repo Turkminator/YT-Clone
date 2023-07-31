@@ -1,6 +1,7 @@
 
 *{
   font-family: Roboto, Arial;
+  font-size: 14px;
 }
 
 .thumbnail{
@@ -9,7 +10,7 @@
 
 .video-title {
   margin-top: 0px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
